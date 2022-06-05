@@ -6,12 +6,12 @@ except:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
         IS_VPS = False
-        API_HASH = os.environ.get("API_HASH")
-        API_ID = int(os.environ.get("API_ID"))
-        BOT_TOKEN = os.environ.get("BOT_TOKEN")
-        BASE_URL_OF_BOT = os.environ.get("BASE_URL")
+        API_HASH = d43015f72ffd1e7fc084ff31b31aa227
+        API_ID = 2436622
+        BOT_TOKEN = 2008010253:AAEvvTZSvtq_9lYYT8MdwTNBlvosOZyXpZo
+        BASE_URL_OF_BOT = https://t.me/TheUchihaBot
         # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [871967943,1291911714,755983475,1282644258,-1001348584170]
+        ALD_USR = 1387517299
         
         # Time to wait before edit message
         EDIT_SLEEP_SECS = 5
